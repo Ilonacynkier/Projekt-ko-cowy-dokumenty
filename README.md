@@ -1,4 +1,4 @@
-# Projekt-kon-cowy
+# Projekt-kon-cowy Aplikacja mobilna ESPRIT
 
 Aplikacja, którą mam przyjemność Państwu przedstawić to bezpłatnie oferowana przez Esprit
 Gloobalaplikacja mobilna ESPRIT. Mozna ją ściągnąć min przez googleplay, dostępna jest
