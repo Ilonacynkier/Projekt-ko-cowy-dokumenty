@@ -1,0 +1,230 @@
+{
+  "id": "fe824b66-fd6e-4372-a4bb-61e2b77435e2",
+  "version": "2.0",
+  "name": "Esprit",
+  "url": "https://www.espritshop.pl",
+  "tests": [{
+    "id": "abb685c1-6ffc-4812-98e1-d466e739718a",
+    "name": "Koszyk1",
+    "commands": [{
+      "id": "332c2251-e57d-4cba-be44-52115426844f",
+      "comment": "",
+      "command": "open",
+      "target": "/moda-damska",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05733407-b30c-4581-952e-cf9141f4a9f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x574",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "252bbf39-9715-4ee3-8592-7a81b12d24dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.login-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.espritshop.pl/myesprit/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cabd826-a369-4c94-a630-81b1575fb461",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.login-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.espritshop.pl/myesprit/login')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "218e82ca-2d05-421c-bc0e-20ecf15afdee",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 115 > span",
+      "targets": [
+        ["css=#\\31 115 > span", "css:finder"],
+        ["xpath=//a[@id='1115']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c259550d-a23f-446f-a956-f43b4ed57bb4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61229839-5b05-4e6c-898e-63659614512b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sukienki",
+      "targets": [
+        ["linkText=Sukienki", "linkText"],
+        ["css=#a398338 .cm-cta__button", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sukienki')])[18]", "xpath:link"],
+        ["xpath=//div[@id='a398338']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/moda-damska/odziez/sukienki')])[14]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b9adcf2-21c4-4470-99a4-9d719fa72972",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,857.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cd0128d-5d97-46a1-8cb0-a26e1abecb8a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb308143-270a-49c4-b7d8-ffc06bd037ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-6:nth-child(7) picture:nth-child(1) > .tile-image",
+      "targets": [
+        ["css=.col-6:nth-child(7) picture:nth-child(1) > .tile-image", "css:finder"],
+        ["xpath=//img[@alt='Z recyklingu: szyfonowa sukienka z marszczoną talią']", "xpath:img"],
+        ["xpath=//div[@id='maincontent']/div[2]/div/div/div/div/div[3]/div[8]/div[7]/div/div/div/a/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/a/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "501531b4-1daa-431d-8a88-efce81ef8650",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb743ee9-212a-49b3-a8bc-d7991537b839",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oncan-size-selection > li:nth-child(6)",
+      "targets": [
+        ["css=.oncan-size-selection > li:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div[3]/div/div[5]/div/div[2]/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[6]", "xpath:position"],
+        ["xpath=//li[contains(.,'42')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f8c478c-2d6f-48ee-9632-d63ef3b87772",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div[3]/div/div[9]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "524dd740-6411-4419-8ef0-1e31e2731a2e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Z włókna TENCEL™ ze streczem: Koszulka z długim rękawem i golfem",
+      "targets": [
+        ["linkText=Z włókna TENCEL™ ze streczem: Koszulka z długim rękawem i golfem", "linkText"],
+        ["css=.swiper-slide:nth-child(3) > .product:nth-child(1) .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Z włókna TENCEL™ ze streczem: Koszulka z długim rękawem i golfem')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartConfirmation']/div/div[2]/div/div/div/div[3]/div/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/p/z-wlokna-tencel--ze-streczem--koszulka-z-dlugim-rekawem-i-golfem-091EO1K317_059.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Z włókna TENCEL™ ze streczem: Koszulka z długim rękawem i golfem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4819a584-e102-4642-8c3c-582a3e4243b7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,244.8000030517578)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be2198e1-ee42-4f27-9d38-914698072fbd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6683a51-bbc0-4da5-be2c-977b6541f679",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oncan-size-selection > li:nth-child(6) > .value",
+      "targets": [
+        ["css=.oncan-size-selection > li:nth-child(6) > .value", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div[3]/div/div[5]/div/div[2]/ul/li[6]/span", "xpath:idRelative"],
+        ["xpath=//li[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'XL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "409006ac-3c9e-4b3e-9c90-3a6c816dc55e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div[3]/div/div[9]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c0bc517-f3b2-4453-b50c-acb3f714b069",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div[3]/div/div[9]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d8a1600-2ff2-4bb1-b9f4-f9db49207008",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-text-add",
+      "targets": [
+        ["css=.btn-text-add", "css:finder"],
+        ["xpath=//div[@id='maincontent']/div[3]/div/div[3]/div/div[9]/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3f487563-6bb6-4961-8443-52aecfeec846",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["abb685c1-6ffc-4812-98e1-d466e739718a"]
+  }],
+  "urls": ["https://www.espritshop.pl/"],
+  "plugins": []
+}
